@@ -7,5 +7,6 @@
         <input type="text" name="money">
         <button>click</button>
     </form>
+    <button type="button" onclick="location.href='board' ">board</button>
 </head>
 </html>
