@@ -23,4 +23,9 @@ public class ViewController {
         model.addAttribute("hdd", restController.parts().hdd);
         return "result";
     }
+
+    @RequestMapping("/board")
+    public String board(Model model, @RequestParam(value="id") int id) {
+        return "board";
+    }
 }
